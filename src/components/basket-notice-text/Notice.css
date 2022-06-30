@@ -1,0 +1,16 @@
+.notice-text {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.notice-text-in:hover {
+    color: red;
+}
+
+.notice-text-out:hover {
+    color: red;
+}
+
+.notice-text-link {
+    margin-left: 10px;
+}

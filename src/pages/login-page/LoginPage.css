@@ -1,0 +1,8 @@
+.sign-in-wrapper {
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.text-sign-in-link:hover {
+    color: red;
+}

@@ -1,0 +1,26 @@
+.game-page_content {
+    display: flex;
+
+}
+
+.game-page_left {
+    width: 70%;
+}
+
+.game-page_right {
+    width: 30%;
+}
+
+.game-page_buy-game {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.game-page {
+    margin: 3% 10%;
+}
+
+.game-page_title {
+    margin: 2+6%;
+}

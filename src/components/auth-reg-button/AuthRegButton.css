@@ -1,0 +1,22 @@
+.auth-reg-wrapper {
+    position: absolute;
+    top: 70px;
+    right: 18%;
+    background-color: rgb(36, 37, 41);
+    width: auto;
+    padding: 7px 20px;
+    z-index: 2;
+    border-radius: 15px;
+}
+
+.signin-link-text:hover {
+    color: red;
+}
+
+.signup-link-text:hover {
+    color: red;
+}
+
+.logout-link-text:hover {
+    color: red;
+}

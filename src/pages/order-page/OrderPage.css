@@ -1,0 +1,20 @@
+.order-page_left {
+    width: 70%;
+    margin-left: 10%;
+}
+
+.order-page_right {
+    width: 27%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.order-page_total-price {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.order-page-title {
+    margin-left: 10%;
+}

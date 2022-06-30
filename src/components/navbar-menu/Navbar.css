@@ -1,0 +1,116 @@
+.nav {
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 0px;
+    padding: 2rem 0;
+    background-color: black;
+}
+
+
+.nav__toggler {
+    display: none;
+}
+
+.nav__toggler div {
+    width: 2.5rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background: rgb(204, 204, 204);
+    transition: 0.3s ease-in;
+}
+
+@media screen and (max-width: 768px) {
+    .nav__toggler {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav__menu {
+        position: fixed;
+        top: 7vh;
+        right: 0;
+        height: 93vh;
+        width: 50vw;
+        flex-direction: column;
+        transform: translateX(3000%);
+        /* transition: 0.5s ease-in; */
+    }
+}
+
+/* Active Class */
+.nav__active {
+    /* transform: translateX(0%); */
+}
+
+/* Toggle Icon Animation */
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-4px, 5px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-4px, -5px);
+}
+
+
+
+
+.wrapper {
+    /* display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    margin-left: 11.5%;
+    margin-right: 14.5%; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+
+.header_store-title {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header_basket-btn-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+
+.person-logo-wrapper {
+    display: flex;
+    margin: 20px;
+}
+
+.person-logout {
+    cursor: pointer;
+}
+
+.logo-user_wrapper {
+    margin-right: 30%;
+    cursor: pointer;
+}
+
+.basket-icon-wrapper {
+    border: 1px solid white;
+    padding: 5px;
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.search-wrapper {
+    margin-left: 35%;
+}
