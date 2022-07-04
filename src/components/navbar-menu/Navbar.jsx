@@ -6,6 +6,7 @@ import { Search } from "../search/Search"
 import { GAMES } from "../../constance/data-games"
 import { SiUbisoft } from "react-icons/si"
 
+
 import "./Navbar.css";
 import { ButtonCatalog } from "../button-catalog/ButtonCatalog";
 

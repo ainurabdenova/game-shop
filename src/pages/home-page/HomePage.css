@@ -5,7 +5,7 @@
     margin: 3% 10%
 }
 
-.game-item:not(:last-child) {
+/* .game-item:not(:last-child) {
     margin-bottom: 30px;
     margin-right: 50px;
-}
+} */
